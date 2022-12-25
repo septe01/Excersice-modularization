@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+platform :ios, '16.0'
+
+ use_frameworks!
+ workspace 'Modularization' # for name workspace to use
+
+target 'NavigateBetweenModule' do
+  # Comment the next line if you don't want to use dynamic frameworks
+
+  # Pods for NavigateBetweenModule
+
+end
+
+target 'Common' do
+  project '../Common/Common'
+end
+
+target 'Cart' do
+  project '../Cart/Cart'
+end
+
+target 'Product' do
+  project '../Product/Product'
+end
+
+# target 'Core' do
+  # project '../Core/Core'
+# end

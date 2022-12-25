@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "modularization-core-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/septe01/Modularization-Core-Package.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4a9e7d3b141e1aec932793faf62ba338c8f4a7b5"
+      }
+    }
+  ],
+  "version" : 2
+}
